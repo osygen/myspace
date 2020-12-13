@@ -1,12 +1,20 @@
 {
   "name": "myspace",
   "version": "1.0.0",
-  "description": "",
+  "description": "myspace",
   "main": "myJs.js",
   "scripts": {
     "start": "node myJs.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osygen/myspace.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osygen/myspace/issues"
+  },
+  "homepage": "https://github.com/osygen/myspace#readme",
+  "keywords": []
 }
