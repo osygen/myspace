@@ -30,8 +30,4 @@ let person2= {
 console.log(person1.fullName.bind(person2)());
 
 
-var arr = new Array();
-arr.push(`hhghgghgh`, `jfjfdjfd`);
-console.log(arr,`the length for array of ${arr} is ${arr.length}`);
-
 
