@@ -1,0 +1,12 @@
+{
+  "name": "myspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myJs.js",
+  "scripts": {
+    "start": "node myJs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

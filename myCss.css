@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+    background:black;
+    position: relative;
+
+  
+   
+}
+#bg{
+  background: tomato;
+  border: 0px;
+  width: 80%;
+  min-height: 105vh;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+
+/*****header******/
+#headder{
+    
+    position: relative;
+}
+
+.zheader{
+   padding: 0px;
+   margin: 10px 10px 0px 10px;
+   background-image:
+   linear-gradient(to right,#53c00b36, rgba(22, 173, 90, 1.988)),url(./img/profile_img.jpg);
+   height: 80vh;
+
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   border-radius: 8px;
+  /*backface-visibility: hidden;*/
+  animation: rolling ease-out .5s .3s backwards; 
+  z-index: 2;
+}
+.animator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+h1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 10px;
+    animation: rolling ease-out .5s .5s backwards; 
+    text-transform: uppercase;
+}
+span{
+    display: block;
+}
+
+
+/*****BODY******/
+#boddy{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    height: 45vh;
+    position: absolute;
+    top: 40vh;
+    z-index: -1;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+
+}
+
+/********animations**********/
+@keyframes rolling{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    80% {
+        transform: translateX(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
